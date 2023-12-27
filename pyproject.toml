@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "task4"
+version = "0.1.0"
+description = ""
+authors = ["Stas <stasfuryus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+say-welcome = 'project3.cli:name__'
+
+[tool.poetry.group.dev.dependencies]
+pytz = "^2023.3.post1"
+django = "4.1"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
